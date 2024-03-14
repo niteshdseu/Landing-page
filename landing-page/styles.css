@@ -1,0 +1,116 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  background-color: #ece1e1;
+}
+
+header {
+  background-color: #9460fb;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 12vh;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #d8d10b40;
+  border-radius: 5px;
+}
+
+/* Styling the hero section */
+.hero-section {
+    background-image: url('/landing-page/image/indeximg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #010811;
+    text-align: center;
+    height: 470px;
+    padding: 90px;
+
+    }
+  
+  .hero-section h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    text-shadow: bold;
+    margin-bottom: 20px;
+    color: #6508f0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 22px;
+    background-color: #eeff00;
+    color: #181717;
+    text-decoration: none;
+    border-radius: 5px;
+
+  }
+
+    footer {
+    background-color: #0e0101;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #f4ebeb;
+    font-size: 20px;
+  }
+
+  .about-section{
+    background-image: url('/landing-page/image/about-us.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #e113e8;
+    text-align: center;
+    font-size: 35px;
+    height: 470px;
+    padding: 90px;
+  }
+  .about-section p {
+      color: rgb(9, 147, 11);
+      font-size: 20px;
+    }
+
+  .contact-section{
+    background-image: url('/landing-page/image/contact.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100% 100%;
+    font-size: 30px;
+    height: 470px;
+    padding: 90px;
+  }
+  
